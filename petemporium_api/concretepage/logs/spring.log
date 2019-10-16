@@ -1,0 +1,677 @@
+2018-Aug-01 15:34:28.685 DEBUG [background-preinit] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2018-Aug-01 15:34:28.704 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-Aug-01 15:34:28.704 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-Aug-01 15:34:28.704 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-Aug-01 15:34:28.705 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-Aug-01 15:34:28.705 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-Aug-01 15:34:28.742 INFO  [restartedMain] i.c.p.PetEmporiumRunner - Starting PetEmporiumRunner on LT40106 with PID 12256 (C:\Users\yTrivedi\eclipse-workspace\petemporium_api\target\classes started by yTrivedi in C:\Users\yTrivedi\eclipse-workspace\petemporium_api)
+2018-Aug-01 15:34:28.743 DEBUG [restartedMain] i.c.p.PetEmporiumRunner - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-Aug-01 15:34:28.744 INFO  [restartedMain] i.c.p.PetEmporiumRunner - No active profile set, falling back to default profiles: default
+2018-Aug-01 15:34:28.803 INFO  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55e9d196: startup date [Wed Aug 01 15:34:28 CDT 2018]; root of context hierarchy
+2018-Aug-01 15:34:30.807 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9074ef95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 15:34:30.822 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 15:34:30.825 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@45719ac0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 15:34:30.830 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$b5499247] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 15:34:30.838 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 15:34:31.394 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-Aug-01 15:34:31.419 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Aug-01 15:34:31.419 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-Aug-01 15:34:31.429 INFO  [localhost-startStop-1] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\yTrivedi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\yTrivedi\AppData\Local\Microsoft\WindowsApps;C:\Users\yTrivedi\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\yTrivedi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\eclipse-jee-oxygen-3a-win32-x86_64\eclipse;;.]
+2018-Aug-01 15:34:31.580 INFO  [localhost-startStop-1] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Aug-01 15:34:31.581 INFO  [localhost-startStop-1] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2778 ms
+2018-Aug-01 15:34:31.820 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-Aug-01 15:34:31.820 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-Aug-01 15:34:31.820 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-Aug-01 15:34:31.821 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-Aug-01 15:34:31.821 INFO  [localhost-startStop-1] o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-Aug-01 15:34:31.821 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-Aug-01 15:34:32.592 INFO  [restartedMain] o.m.d.cluster - Cluster created with settings {hosts=[localhost:27089], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-Aug-01 15:34:32.592 INFO  [restartedMain] o.m.d.cluster - Adding discovered server localhost:27089 to client view of cluster
+2018-Aug-01 15:34:33.075 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.updateCustomer(java.lang.String,io.catalyte.petemporium.domain.Customer)
+2018-Aug-01 15:34:33.101 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.CustomerController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.updateCustomer(java.lang.String,io.catalyte.petemporium.domain.Customer)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.132 DEBUG [restartedMain] o.s.s.a.i.a.MethodSecurityInterceptor - Validated configuration attributes
+2018-Aug-01 15:34:33.138 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getCustomerById(java.lang.String)
+2018-Aug-01 15:34:33.139 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.CustomerController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getCustomerById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.139 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.createCustomer(io.catalyte.petemporium.domain.Customer)
+2018-Aug-01 15:34:33.139 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.CustomerController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.createCustomer(io.catalyte.petemporium.domain.Customer)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.139 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getCustomer()
+2018-Aug-01 15:34:33.140 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.CustomerController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getCustomer()]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.140 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getEmployeeByLastName(java.lang.String)
+2018-Aug-01 15:34:33.140 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.CustomerController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getEmployeeByLastName(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.140 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.deleteCustomerById(java.lang.String)
+2018-Aug-01 15:34:33.141 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.CustomerController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.deleteCustomerById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.173 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.CreateInventory(io.catalyte.petemporium.domain.Inventory)
+2018-Aug-01 15:34:33.174 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.InventoryController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.CreateInventory(io.catalyte.petemporium.domain.Inventory)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.175 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.getInventory()
+2018-Aug-01 15:34:33.175 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.InventoryController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.getInventory()]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.175 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.getInventoryById(java.lang.String)
+2018-Aug-01 15:34:33.176 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.InventoryController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.getInventoryById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.176 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.updateInventroy(java.lang.String,io.catalyte.petemporium.domain.Inventory)
+2018-Aug-01 15:34:33.177 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.InventoryController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.updateInventroy(java.lang.String,io.catalyte.petemporium.domain.Inventory)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.177 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.deleteInventoryById(java.lang.String)
+2018-Aug-01 15:34:33.177 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.InventoryController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.InventoryController.deleteInventoryById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.208 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.updatePetById(java.lang.String,io.catalyte.petemporium.domain.Pet)
+2018-Aug-01 15:34:33.208 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PetController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.updatePetById(java.lang.String,io.catalyte.petemporium.domain.Pet)]] with attributes [[authorize: 'hasRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.209 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.getpetByName(java.lang.String)
+2018-Aug-01 15:34:33.209 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PetController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.getpetByName(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.209 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.createPet(io.catalyte.petemporium.domain.Pet)
+2018-Aug-01 15:34:33.210 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PetController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.createPet(io.catalyte.petemporium.domain.Pet)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.210 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.deletePetById(java.lang.String)
+2018-Aug-01 15:34:33.210 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PetController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.deletePetById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.210 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_USER', 'ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.getPetById(java.lang.String)
+2018-Aug-01 15:34:33.210 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PetController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.getPetById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_USER', 'ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.211 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.getPet()
+2018-Aug-01 15:34:33.211 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PetController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PetController.getPet()]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.234 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.updateCustomer(java.lang.String,io.catalyte.petemporium.domain.Purchases)
+2018-Aug-01 15:34:33.234 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PurchaseController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.updateCustomer(java.lang.String,io.catalyte.petemporium.domain.Purchases)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.235 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.CreateInventory(io.catalyte.petemporium.domain.Purchases)
+2018-Aug-01 15:34:33.235 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PurchaseController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.CreateInventory(io.catalyte.petemporium.domain.Purchases)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.236 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.getPurchaseById(java.lang.String)
+2018-Aug-01 15:34:33.236 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PurchaseController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.getPurchaseById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.236 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN', 'ROLE_USER')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.getPurchases()
+2018-Aug-01 15:34:33.236 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PurchaseController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.getPurchases()]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.236 DEBUG [restartedMain] o.s.s.a.p.PrePostAnnotationSecurityMetadataSource - @org.springframework.security.access.prepost.PreAuthorize(value=hasAnyRole('ROLE_ADMIN')) found on specific method: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.deletePutchasesById(java.lang.String)
+2018-Aug-01 15:34:33.237 DEBUG [restartedMain] o.s.s.a.m.DelegatingMethodSecurityMetadataSource - Caching method [CacheKey[io.catalyte.petemporium.controllers.PurchaseController; public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.PurchaseController.deletePutchasesById(java.lang.String)]] with attributes [[authorize: 'hasAnyRole('ROLE_ADMIN')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:33.653 INFO  [cluster-ClusterId{value='5b621958c510b12fe0767316', description='null'}-localhost:27089] o.m.d.cluster - Exception in monitor thread while connecting to server localhost:27089
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+2018-Aug-01 15:34:33.844 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/{Id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Customer> io.catalyte.petemporium.controllers.CustomerController.updateCustomer(java.lang.String,io.catalyte.petemporium.domain.Customer)
+2018-Aug-01 15:34:33.845 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/{Id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Customer> io.catalyte.petemporium.controllers.CustomerController.getCustomerById(java.lang.String)
+2018-Aug-01 15:34:33.846 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Customer> io.catalyte.petemporium.controllers.CustomerController.createCustomer(io.catalyte.petemporium.domain.Customer)
+2018-Aug-01 15:34:33.846 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.catalyte.petemporium.domain.Customer>> io.catalyte.petemporium.controllers.CustomerController.getCustomer()
+2018-Aug-01 15:34:33.846 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.catalyte.petemporium.domain.Customer>> io.catalyte.petemporium.controllers.CustomerController.getEmployeeByLastName(java.lang.String)
+2018-Aug-01 15:34:33.847 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/{Id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.deleteCustomerById(java.lang.String)
+2018-Aug-01 15:34:33.848 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/inventory],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Inventory> io.catalyte.petemporium.controllers.InventoryController.CreateInventory(io.catalyte.petemporium.domain.Inventory)
+2018-Aug-01 15:34:33.849 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/inventory],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.catalyte.petemporium.domain.Inventory>> io.catalyte.petemporium.controllers.InventoryController.getInventory()
+2018-Aug-01 15:34:33.849 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/inventory/{Id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Inventory> io.catalyte.petemporium.controllers.InventoryController.getInventoryById(java.lang.String)
+2018-Aug-01 15:34:33.850 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/inventory/{Id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Inventory> io.catalyte.petemporium.controllers.InventoryController.updateInventroy(java.lang.String,io.catalyte.petemporium.domain.Inventory)
+2018-Aug-01 15:34:33.850 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/inventory/{Id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Inventory> io.catalyte.petemporium.controllers.InventoryController.deleteInventoryById(java.lang.String)
+2018-Aug-01 15:34:33.854 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pets/{Id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Pet> io.catalyte.petemporium.controllers.PetController.updatePetById(java.lang.String,io.catalyte.petemporium.domain.Pet)
+2018-Aug-01 15:34:33.854 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pets/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.catalyte.petemporium.domain.Pet>> io.catalyte.petemporium.controllers.PetController.getpetByName(java.lang.String)
+2018-Aug-01 15:34:33.854 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pets],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Pet> io.catalyte.petemporium.controllers.PetController.createPet(io.catalyte.petemporium.domain.Pet)
+2018-Aug-01 15:34:33.854 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pets/{Id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Pet> io.catalyte.petemporium.controllers.PetController.deletePetById(java.lang.String)
+2018-Aug-01 15:34:33.855 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pets/{Id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Pet> io.catalyte.petemporium.controllers.PetController.getPetById(java.lang.String)
+2018-Aug-01 15:34:33.855 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pets],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.catalyte.petemporium.domain.Pet>> io.catalyte.petemporium.controllers.PetController.getPet()
+2018-Aug-01 15:34:33.857 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/purchases/{Id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Purchases> io.catalyte.petemporium.controllers.PurchaseController.updateCustomer(java.lang.String,io.catalyte.petemporium.domain.Purchases)
+2018-Aug-01 15:34:33.857 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/purchases],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Purchases> io.catalyte.petemporium.controllers.PurchaseController.CreateInventory(io.catalyte.petemporium.domain.Purchases)
+2018-Aug-01 15:34:33.857 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/purchases/{Id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Purchases> io.catalyte.petemporium.controllers.PurchaseController.getPurchaseById(java.lang.String)
+2018-Aug-01 15:34:33.858 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/purchases],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.catalyte.petemporium.domain.Purchases>> io.catalyte.petemporium.controllers.PurchaseController.getPurchases()
+2018-Aug-01 15:34:33.858 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/purchases/{Id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<io.catalyte.petemporium.domain.Purchases> io.catalyte.petemporium.controllers.PurchaseController.deletePutchasesById(java.lang.String)
+2018-Aug-01 15:34:33.863 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-Aug-01 15:34:33.864 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-Aug-01 15:34:33.865 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-Aug-01 15:34:33.870 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-Aug-01 15:34:33.871 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-Aug-01 15:34:34.299 DEBUG [restartedMain] o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource - Adding web access control expression 'permitAll', for Ant [pattern='/**']
+2018-Aug-01 15:34:34.304 DEBUG [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor - Validated configuration attributes
+2018-Aug-01 15:34:34.305 DEBUG [restartedMain] o.s.s.w.a.i.FilterSecurityInterceptor - Validated configuration attributes
+2018-Aug-01 15:34:34.311 INFO  [restartedMain] o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7532b05e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4977074a, org.springframework.security.web.header.HeaderWriterFilter@ac0f5d7, org.springframework.security.web.authentication.logout.LogoutFilter@1d243797, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74bf8941, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c6cf95a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f93376f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ecc8c5d, org.springframework.security.web.session.SessionManagementFilter@3ba61df3, org.springframework.security.web.access.ExceptionTranslationFilter@4847dc19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@790bbb28]
+2018-Aug-01 15:34:34.374 INFO  [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-Aug-01 15:34:34.416 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-Aug-01 15:34:34.417 DEBUG [restartedMain] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2018-Aug-01 15:34:34.426 DEBUG [restartedMain] o.h.v.i.e.r.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-Aug-01 15:34:34.427 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-Aug-01 15:34:34.428 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-Aug-01 15:34:34.429 DEBUG [restartedMain] o.h.v.i.e.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2018-Aug-01 15:34:34.431 DEBUG [restartedMain] o.h.v.i.x.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-Aug-01 15:34:34.431 DEBUG [restartedMain] o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-Aug-01 15:34:34.431 DEBUG [restartedMain] o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-Aug-01 15:34:34.431 DEBUG [restartedMain] o.h.v.i.x.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-Aug-01 15:34:34.432 DEBUG [restartedMain] o.h.v.i.x.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-Aug-01 15:34:34.437 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-Aug-01 15:34:34.437 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-Aug-01 15:34:34.437 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-Aug-01 15:34:34.438 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-Aug-01 15:34:34.438 DEBUG [restartedMain] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-Aug-01 15:34:34.496 INFO  [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-Aug-01 15:34:34.709 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55e9d196: startup date [Wed Aug 01 15:34:28 CDT 2018]; root of context hierarchy
+2018-Aug-01 15:34:34.790 INFO  [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-Aug-01 15:34:34.790 INFO  [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-Aug-01 15:34:35.115 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-Aug-01 15:34:35.159 DEBUG [restartedMain] o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {securityConfig=io.catalyte.petemporium.SecurityConfig$$EnhancerBySpringCGLIB$$f9c56f8@375a980a}
+2018-Aug-01 15:34:35.166 INFO  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 51306d28-daa1-466b-ad13-d5260ea3fa37
+
+2018-Aug-01 15:34:35.171 INFO  [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-Aug-01 15:34:35.182 INFO  [restartedMain] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2018-Aug-01 15:34:35.183 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-Aug-01 15:34:35.212 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-Aug-01 15:34:35.361 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-Aug-01 15:34:35.678 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: CreateInventoryUsingPOST_1
+2018-Aug-01 15:34:35.709 INFO  [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: updateCustomerUsingPUT_1
+2018-Aug-01 15:34:35.773 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-Aug-01 15:34:35.776 INFO  [restartedMain] i.c.p.PetEmporiumRunner - Started PetEmporiumRunner in 7.373 seconds (JVM running for 7.949)
+2018-Aug-01 15:34:56.863 INFO  [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-Aug-01 15:34:56.864 INFO  [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-Aug-01 15:34:56.894 INFO  [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-Aug-01 15:34:56.912 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 1 of 11 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-Aug-01 15:34:56.914 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 2 of 11 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-Aug-01 15:34:56.914 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository - No HttpSession currently exists
+2018-Aug-01 15:34:56.915 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository - No SecurityContext was available from the HttpSession: null. A new one will be created.
+2018-Aug-01 15:34:56.917 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 3 of 11 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-Aug-01 15:34:56.918 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 4 of 11 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-Aug-01 15:34:56.918 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-Aug-01 15:34:56.918 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/customers'; against '/logout'
+2018-Aug-01 15:34:56.918 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-Aug-01 15:34:56.918 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /customers' doesn't match 'POST /logout
+2018-Aug-01 15:34:56.919 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-Aug-01 15:34:56.919 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /customers' doesn't match 'PUT /logout
+2018-Aug-01 15:34:56.919 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-Aug-01 15:34:56.919 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /customers' doesn't match 'DELETE /logout
+2018-Aug-01 15:34:56.919 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - No matches found
+2018-Aug-01 15:34:56.919 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 5 of 11 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2018-Aug-01 15:34:56.920 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.w.BasicAuthenticationFilter - Basic Authentication Authorization header found for user 'admin1'
+2018-Aug-01 15:34:56.921 DEBUG [http-nio-8080-exec-3] o.s.s.a.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-Aug-01 15:34:56.924 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.w.BasicAuthenticationFilter - Authentication success: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER
+2018-Aug-01 15:34:56.924 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 6 of 11 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-Aug-01 15:34:56.924 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 7 of 11 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-Aug-01 15:34:56.926 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 8 of 11 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-Aug-01 15:34:56.927 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER'
+2018-Aug-01 15:34:56.927 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 9 of 11 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-Aug-01 15:34:56.927 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.s.CompositeSessionAuthenticationStrategy - Delegating to org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy@7e9384d3
+2018-Aug-01 15:34:56.929 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository - HttpSession being created as SecurityContext is non-default
+2018-Aug-01 15:34:56.940 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository - SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@507be1b0: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER' stored to HttpSession: 'org.apache.catalina.session.StandardSessionFacade@2f1f1d4a
+2018-Aug-01 15:34:56.940 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 10 of 11 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-Aug-01 15:34:56.940 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers at position 11 of 11 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2018-Aug-01 15:34:56.941 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request '/customers' matched by universal pattern '/**'
+2018-Aug-01 15:34:56.941 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor - Secure object: FilterInvocation: URL: /customers; Attributes: [permitAll]
+2018-Aug-01 15:34:56.942 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER
+2018-Aug-01 15:34:56.948 DEBUG [http-nio-8080-exec-3] o.s.s.a.v.AffirmativeBased - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@574bdc35, returned: 1
+2018-Aug-01 15:34:56.948 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor - Authorization successful
+2018-Aug-01 15:34:56.948 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor - RunAsManager did not change Authentication object
+2018-Aug-01 15:34:56.948 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /customers reached end of additional filter chain; proceeding with original chain
+2018-Aug-01 15:34:56.971 DEBUG [http-nio-8080-exec-3] o.s.s.a.i.a.MethodSecurityInterceptor - Secure object: ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getCustomer(); target is of class [io.catalyte.petemporium.controllers.CustomerController]; Attributes: [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:34:56.971 DEBUG [http-nio-8080-exec-3] o.s.s.a.i.a.MethodSecurityInterceptor - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER
+2018-Aug-01 15:34:56.972 DEBUG [http-nio-8080-exec-3] o.s.s.a.v.AffirmativeBased - Voter: org.springframework.security.access.prepost.PreInvocationAuthorizationAdviceVoter@163b5cba, returned: 1
+2018-Aug-01 15:34:56.973 DEBUG [http-nio-8080-exec-3] o.s.s.a.i.a.MethodSecurityInterceptor - Authorization successful
+2018-Aug-01 15:34:56.973 DEBUG [http-nio-8080-exec-3] o.s.s.a.i.a.MethodSecurityInterceptor - RunAsManager did not change Authentication object
+2018-Aug-01 15:34:57.014 INFO  [http-nio-8080-exec-3] o.m.d.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-Aug-01 15:35:27.029 DEBUG [http-nio-8080-exec-3] o.s.s.w.h.w.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@3cc3b4db
+2018-Aug-01 15:35:27.030 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository - SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@507be1b0: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER' stored to HttpSession: 'org.apache.catalina.session.StandardSessionFacade@2f1f1d4a
+2018-Aug-01 15:35:27.030 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-Aug-01 15:35:27.036 ERROR [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27089, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27089, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]] with root cause
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27089, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167)
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885)
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877)
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866)
+	at com.mongodb.Mongo$3.execute(Mongo.java:823)
+	at com.mongodb.MongoIterableImpl.execute(MongoIterableImpl.java:130)
+	at com.mongodb.MongoIterableImpl.iterator(MongoIterableImpl.java:77)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2442)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2244)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2227)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:770)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:365)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:197)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:629)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:593)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:578)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.findAll(Unknown Source)
+	at io.catalyte.petemporium.controllers.CustomerController.getCustomer(CustomerController.java:61)
+	at io.catalyte.petemporium.controllers.CustomerController$$FastClassBySpringCGLIB$$dfa27ba7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at io.catalyte.petemporium.controllers.CustomerController$$EnhancerBySpringCGLIB$$1a4a8df0.getCustomer(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-Aug-01 15:35:27.048 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 1 of 11 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-Aug-01 15:35:27.048 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 2 of 11 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-Aug-01 15:35:27.049 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.HttpSessionSecurityContextRepository - Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@507be1b0: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER'
+2018-Aug-01 15:35:27.049 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 3 of 11 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-Aug-01 15:35:27.049 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 4 of 11 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-Aug-01 15:35:27.049 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-Aug-01 15:35:27.049 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/error'; against '/logout'
+2018-Aug-01 15:35:27.049 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /error' doesn't match 'POST /logout
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /error' doesn't match 'PUT /logout
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /error' doesn't match 'DELETE /logout
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.u.m.OrRequestMatcher - No matches found
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 5 of 11 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 6 of 11 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 7 of 11 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 8 of 11 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER'
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 9 of 11 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-Aug-01 15:35:27.050 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 10 of 11 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-Aug-01 15:35:27.051 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error at position 11 of 11 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2018-Aug-01 15:35:27.051 DEBUG [http-nio-8080-exec-3] o.s.s.w.FilterChainProxy - /error reached end of additional filter chain; proceeding with original chain
+2018-Aug-01 15:35:27.115 DEBUG [http-nio-8080-exec-3] o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-Aug-01 15:35:27.115 DEBUG [http-nio-8080-exec-3] o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-Aug-01 15:35:39.745 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 1 of 11 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 2 of 11 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository - Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@507be1b0: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@507be1b0: Principal: org.springframework.security.core.userdetails.User@ab3a66c2: Username: admin1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_ADMIN,ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ADMIN, ROLE_USER'
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 3 of 11 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 4 of 11 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/customers'; against '/logout'
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /customers' doesn't match 'POST /logout
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /customers' doesn't match 'PUT /logout
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-Aug-01 15:35:39.746 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /customers' doesn't match 'DELETE /logout
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - No matches found
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 5 of 11 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.w.BasicAuthenticationFilter - Basic Authentication Authorization header found for user 'user1'
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.a.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.w.BasicAuthenticationFilter - Authentication success: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 6 of 11 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-Aug-01 15:35:39.747 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 7 of 11 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 8 of 11 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 9 of 11 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 10 of 11 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com at position 11 of 11 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request '/customers' matched by universal pattern '/**'
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor - Secure object: FilterInvocation: URL: /customers?email=paul@gmail.com; Attributes: [permitAll]
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER
+2018-Aug-01 15:35:39.748 DEBUG [http-nio-8080-exec-4] o.s.s.a.v.AffirmativeBased - Voter: org.springframework.security.web.access.expression.WebExpressionVoter@574bdc35, returned: 1
+2018-Aug-01 15:35:39.749 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor - Authorization successful
+2018-Aug-01 15:35:39.749 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.i.FilterSecurityInterceptor - RunAsManager did not change Authentication object
+2018-Aug-01 15:35:39.749 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /customers?email=paul@gmail.com reached end of additional filter chain; proceeding with original chain
+2018-Aug-01 15:35:39.749 DEBUG [http-nio-8080-exec-4] o.s.s.a.i.a.MethodSecurityInterceptor - Secure object: ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity io.catalyte.petemporium.controllers.CustomerController.getCustomer(); target is of class [io.catalyte.petemporium.controllers.CustomerController]; Attributes: [[authorize: 'hasAnyRole('ROLE_ADMIN', 'ROLE_USER')', filter: 'null', filterTarget: 'null']]
+2018-Aug-01 15:35:39.749 DEBUG [http-nio-8080-exec-4] o.s.s.a.i.a.MethodSecurityInterceptor - Previously Authenticated: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER
+2018-Aug-01 15:35:39.750 DEBUG [http-nio-8080-exec-4] o.s.s.a.v.AffirmativeBased - Voter: org.springframework.security.access.prepost.PreInvocationAuthorizationAdviceVoter@163b5cba, returned: 1
+2018-Aug-01 15:35:39.750 DEBUG [http-nio-8080-exec-4] o.s.s.a.i.a.MethodSecurityInterceptor - Authorization successful
+2018-Aug-01 15:35:39.750 DEBUG [http-nio-8080-exec-4] o.s.s.a.i.a.MethodSecurityInterceptor - RunAsManager did not change Authentication object
+2018-Aug-01 15:35:39.750 INFO  [http-nio-8080-exec-4] o.m.d.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+2018-Aug-01 15:36:09.752 DEBUG [http-nio-8080-exec-4] o.s.s.w.h.w.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@3cc3b4db
+2018-Aug-01 15:36:09.752 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository - SecurityContext 'org.springframework.security.core.context.SecurityContextImpl@bd40445e: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER' stored to HttpSession: 'org.apache.catalina.session.StandardSessionFacade@2f1f1d4a
+2018-Aug-01 15:36:09.752 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-Aug-01 15:36:09.758 ERROR [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27089, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27089, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]] with root cause
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27089, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.getDescription(BaseCluster.java:167)
+	at com.mongodb.Mongo.getConnectedClusterDescription(Mongo.java:885)
+	at com.mongodb.Mongo.createClientSession(Mongo.java:877)
+	at com.mongodb.Mongo$3.getClientSession(Mongo.java:866)
+	at com.mongodb.Mongo$3.execute(Mongo.java:823)
+	at com.mongodb.MongoIterableImpl.execute(MongoIterableImpl.java:130)
+	at com.mongodb.MongoIterableImpl.iterator(MongoIterableImpl.java:77)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2442)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2244)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2227)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:770)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:365)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:197)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.findAll(SimpleMongoRepository.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:629)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:593)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:578)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.findAll(Unknown Source)
+	at io.catalyte.petemporium.controllers.CustomerController.getCustomer(CustomerController.java:61)
+	at io.catalyte.petemporium.controllers.CustomerController$$FastClassBySpringCGLIB$$dfa27ba7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at io.catalyte.petemporium.controllers.CustomerController$$EnhancerBySpringCGLIB$$1a4a8df0.getCustomer(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-Aug-01 15:36:09.760 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 1 of 11 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-Aug-01 15:36:09.760 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 2 of 11 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-Aug-01 15:36:09.760 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.HttpSessionSecurityContextRepository - Obtained a valid SecurityContext from SPRING_SECURITY_CONTEXT: 'org.springframework.security.core.context.SecurityContextImpl@bd40445e: Authentication: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 3 of 11 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 4 of 11 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/error'; against '/logout'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /error' doesn't match 'POST /logout
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /error' doesn't match 'PUT /logout
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /error' doesn't match 'DELETE /logout
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.u.m.OrRequestMatcher - No matches found
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 5 of 11 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 6 of 11 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 7 of 11 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 8 of 11 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter - SecurityContextHolder not populated with anonymous token, as it already contained: 'org.springframework.security.authentication.UsernamePasswordAuthenticationToken@bd40445e: Principal: org.springframework.security.core.userdetails.User@6a68dc6: Username: user1; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@fffbcba8: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 4AAC872FAAFFF0F897EAD90599D5BAB2; Granted Authorities: ROLE_USER'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 9 of 11 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 10 of 11 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com at position 11 of 11 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2018-Aug-01 15:36:09.761 DEBUG [http-nio-8080-exec-4] o.s.s.w.FilterChainProxy - /error?email=paul@gmail.com reached end of additional filter chain; proceeding with original chain
+2018-Aug-01 15:36:09.767 DEBUG [http-nio-8080-exec-4] o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-Aug-01 15:36:09.768 ERROR [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost] - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:514)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:286)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:272)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:224)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:472)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:349)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352)
+	at org.apache.coyote.Response.action(Response.java:173)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317)
+	... 73 common frames omitted
+2018-Aug-01 21:12:12.724 DEBUG [background-preinit] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2018-Aug-01 21:12:12.737 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-Aug-01 21:12:12.737 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2018-Aug-01 21:12:12.737 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2018-Aug-01 21:12:12.738 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2018-Aug-01 21:12:12.738 DEBUG [background-preinit] o.h.v.i.e.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2018-Aug-01 21:12:12.796 INFO  [restartedMain] i.c.p.PetEmporiumRunner - Starting PetEmporiumRunner on LT40106 with PID 8084 (C:\Users\yTrivedi\eclipse-workspace\petemporium_api\target\classes started by yTrivedi in C:\Users\yTrivedi\eclipse-workspace\petemporium_api)
+2018-Aug-01 21:12:12.797 DEBUG [restartedMain] i.c.p.PetEmporiumRunner - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-Aug-01 21:12:12.798 INFO  [restartedMain] i.c.p.PetEmporiumRunner - No active profile set, falling back to default profiles: default
+2018-Aug-01 21:12:12.867 INFO  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7bfa1358: startup date [Wed Aug 01 21:12:12 CDT 2018]; root of context hierarchy
+2018-Aug-01 21:12:15.074 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8a0dc393] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 21:12:15.094 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 21:12:15.097 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7d80ab0e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 21:12:15.107 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$aee26645] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 21:12:15.119 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-Aug-01 21:12:15.758 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-Aug-01 21:12:15.790 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Aug-01 21:12:15.791 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-Aug-01 21:12:15.805 INFO  [localhost-startStop-1] o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\yTrivedi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\yTrivedi\AppData\Local\Microsoft\WindowsApps;C:\Users\yTrivedi\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\yTrivedi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\eclipse-jee-oxygen-3a-win32-x86_64\eclipse;;.]
+2018-Aug-01 21:12:15.972 INFO  [localhost-startStop-1] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Aug-01 21:12:15.973 INFO  [localhost-startStop-1] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 3106 ms
