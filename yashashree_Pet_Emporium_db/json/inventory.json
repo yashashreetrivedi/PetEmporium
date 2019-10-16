@@ -1,0 +1,27 @@
+[
+    {
+    "amount": 30,
+	"petsId": "AA01",
+    "type": "Rabbit",
+    "price": 200.00
+    },
+    {
+    "amount": 20,
+	"petsId": "AA02",
+    "type": "Bird",
+    "price": 90.00
+    },
+    {
+    "amount": 60,
+	"petsId": "AA03",
+    "type": "peranfish",
+    "price": 200.00
+     },
+    {
+    "amount": 10,
+    "petsId": "AA04",
+    "type": "gold Fishe",
+    "price": 300.00
+     }
+   
+]  

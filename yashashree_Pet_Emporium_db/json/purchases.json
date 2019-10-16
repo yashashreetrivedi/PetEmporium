@@ -1,0 +1,48 @@
+{
+ "_id": "AA08",	
+ "customer":
+ {
+         "_id":"02",
+      "firstName": "Nancy",
+        "lastName": "jeo",
+        "phoneNumber": "4254359014",
+        "email": "jeo@gmail.com",
+        "address": {
+            "street": "50th streeet",
+            "city": "portland",
+            "state": "OR",
+            "zip": "40456"
+        }
+ },
+ "date":"02/11/2017",
+ "subTotal": 100.00,
+ "taxPercentage":10.00,
+ "taxAmount":200.00,
+ "totalprice":100.00,
+ 
+ "items":[{
+	
+ 	   "pet": {
+        "_id": "1",
+        "name": "Cat",
+        "color": "White",
+        "age": "2",
+        "sex": "F"
+        },
+ 		"price":100.00
+		},
+		
+		{
+	
+ 	    "pet": {
+        "_id": "2",
+        "name": "dog",
+        "color": "Black",
+        "age": "1",
+        "sex": "M"
+        },
+ 		"price":500.00
+		}
+ 	]
+ 	
+}
